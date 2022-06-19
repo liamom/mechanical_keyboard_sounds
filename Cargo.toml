@@ -1,0 +1,15 @@
+[package]
+name = "mechanical_keyboard_simulator"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#inputbot = "0.5.0"
+rand = "0.8.4"
+soloud = { git = "https://github.com/moalyousef/soloud-rs" }
+ctrlc = "3.2.0"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3.9", features = ["winuser"] }

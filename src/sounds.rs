@@ -1,0 +1,13 @@
+pub const BACKSPACE_DOWN: &'static [u8] = include_bytes!("sound/17b16e6f30b91ddf208dc74d05f1e525.mp3");
+// pub const sound = include_bytes!("sound/c7ef84d6e283f1861712f035f0fb0d17.mp3");
+pub const BACKSPACE_UP: &'static [u8] = include_bytes!("sound/48c81c524970d8816e4ef06301618aca.mp3");
+// pub const sound = include_bytes!("sound/d8078c3f2760cdccab69d99e55afa445.mp3");
+pub const LETTER_DOWN: &'static [u8] = include_bytes!("sound/74c9f50582dd07e8415ebef6c49bafd7.mp3");
+pub const LETTER_UP: &'static [u8]  = include_bytes!("sound/807f405e2bfd42873aef8bf2472b280b.mp3");
+pub const SPACE_DOWN: &'static [u8] = include_bytes!("sound/ef791b2d1a3d7acf960677d81b068219.mp3");
+pub const SPACE_UP: &'static [u8]  = include_bytes!("sound/b6c42e66b96493fb961c70fb74b18e9e.mp3");
+pub const HONK: &'static [u8]  = include_bytes!("sound/honk.mp3");
+// pub const sound = include_bytes!("sound/f78b53f7000e982eb664c0b13d074fe5.mp3");
+pub const ENTER_DOWN: &'static [u8] = include_bytes!("sound/ba4cf5b8414f1358b34a5a51a81edcb0.mp3");
+// pub const sound = include_bytes!("sound/f95f1f601b5b8703dd6ef9db0a1ac8de.mp3");
+pub const ENTER_UP: &'static [u8] = include_bytes!("sound/c19e59c56dc885dba3958b08ecfcc103.mp3");
